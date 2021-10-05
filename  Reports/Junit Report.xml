@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="20.314">
+    <testcase classname="Orange HRM" name="Login Functionality with scenatio outline" time="8.383">
+        <system-out>
+            <![CDATA[Given : User is on login page...............................................passed
+When : User enters Admin and admin123.......................................passed
+And : clicks on Login button................................................passed
+Then : User should be able to login successfuly.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Orange HRM" name="Login Functionality with scenatio outline 2" time="11.666">
+        <system-out>
+            <![CDATA[Given : User is on login page...............................................passed
+When : User enters test and test1...........................................passed
+And : clicks on Login button................................................passed
+Then : User should be able to login successfuly.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

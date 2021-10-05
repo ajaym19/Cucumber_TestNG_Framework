@@ -1,0 +1,56 @@
+This project Integrates Selenium with Cucumber
+
+Steps to be followed
+
+1. Specify all the dependencies in pom.xml
+	cucumber-java
+	cucumber-jvm
+	cucumber-testNG
+	cucumber-jvm-deps
+	cucumber-reporting
+	gherkin
+	testng
+	selenium
+
+2. Help>> Install New software, use this link
+http://rlogiacco.github.io/Natural 
+Install Natural plugin from Eclipse Marketplace or drag and drop
+
+3. Create a package as Features
+	Create a Feature File as Login.feature
+	write the story
+	
+4. Create a package as stepDefinition
+	Create a class as LoginStepDefinition
+	
+5. Create a package as Runner
+	Create a class as TestRunner
+	
+6. Data Driven using Cucumber
+	1. Simple Data Driver - without example keyword
+		pass the username in the feature file step
+		eg. when user enters "ajay" and "Pass!23"
+		catch this value in stepDef
+		Use scenario here
+	2. With Examples and Scenario Outline
+		specify Example and pass paramter in steps
+		Difference between scenario and scenario outline:
+		when we use examples it should be scenario outline
+	3. Using Tables
+		
+
+	
+Cucumber Options
+Dry Run
+dryRun option can either set as true or false. If it is set as true, it means that Cucumber will only check that every Step mentioned in the Feature File has corresponding code written in Step Definition file or not.
+
+Monochrome
+This option can either set as true or false. If it is set as true, it means that the console output for the Cucumber test are much more readable
+
+Features
+Features Options helps Cucumber to locate the Feature file in the project folder structure. 
+
+Glue
+It is almost the same think as Features Option but the only difference is that it helps Cucumber to locate the Step Definition file
+
+ 
